@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6n0114/v1
+canonical_location: https://kanripo.org/bkk/KR6n0114/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 觀所緣緣論會釋
+  identifiers:
+    alt_id:
+    - X51n0830
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X51/X51n0830.xml
+    old_id: X51n0830
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0114_000.yaml, hash: 'sha256:6ec964c370e84488792ed955029a4056a3ad1a3d5f38d76cca6d47bdfa831044'}
+  - {seq: 1, filename: KR6n0114_001.yaml, hash: 'sha256:e2bd832ca175abfc393d52715b2ea88fb7ac1110840749119db885aaf7bab713'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6n0114_001.markers.yaml, hash: 'sha256:676ec03f083ac5506eab231e75908565f321305fb67c485bb17837786c76c4c6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6n0114_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4392
+  label: 觀所緣緣論會釋
+  type: juan
+  level: 1
+hash: sha256:30b52b532fc70205709bf6a482e0860f4739f0055723c88b96d84c0f931f395a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

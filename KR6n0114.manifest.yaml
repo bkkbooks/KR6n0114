@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6n0114_000.yaml, hash: 'sha256:6ec964c370e84488792ed955029a4056a3ad1a3d5f38d76cca6d47bdfa831044'}
-  - {seq: 1, filename: KR6n0114_001.yaml, hash: 'sha256:e2bd832ca175abfc393d52715b2ea88fb7ac1110840749119db885aaf7bab713'}
+  - {seq: 1, filename: KR6n0114_001.yaml, hash: 'sha256:1f3a032d7ffe0dfbf62331752c5379098e62f5f5b224bdd67c90a8f5a1b062be'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6n0114_001.markers.yaml, hash: 'sha256:676ec03f083ac5506eab231e75908565f321305fb67c485bb17837786c76c4c6'}
+  - {seq: 0, role: markers, filename: assets/KR6n0114_000.markers.yaml, hash: 'sha256:9c22d9156a112f0dc6a84d9d3a20410867bd46abcdd42af467436bda482a3654'}
+  - {seq: 1, role: markers, filename: assets/KR6n0114_001.markers.yaml, hash: 'sha256:0ef4ecc4c8012f0cdcb2ac3f2bb19cd8bf2ea468d757be0dbf2a1f934b891f4e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 觀所緣緣論會釋
   type: juan
   level: 1
-hash: sha256:30b52b532fc70205709bf6a482e0860f4739f0055723c88b96d84c0f931f395a
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:ca31b26514d907b7203111cb9fdd9a486908980929ff828d4d73a8a01c141b91
